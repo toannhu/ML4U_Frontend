@@ -3,7 +3,10 @@ import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import { Image } from "semantic-ui-react";
 import Container from "react-bootstrap/Container";
+import Logo from "../assets/img/logo.png";
+import "./Header.css";
 
 const Header = () => {
   const scrollTo = id => e => {
@@ -26,7 +29,7 @@ const Header = () => {
             onClick={scrollTo("home")}
             aria-label="Logo"
           >
-            LOGO
+            <Image src={Logo} size="tiny" floated id="logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span />
@@ -58,6 +61,30 @@ const Header = () => {
                 duration={400}
               >
                 About
+              </Link>
+              <Link
+                href="#"
+                className="nav-link"
+                activeClass="active"
+                to="article"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={400}
+              >
+                Projects
+              </Link>
+              <Link
+                href="#"
+                className="nav-link"
+                activeClass="active"
+                to="members"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={400}
+              >
+                Members
               </Link>
               <Link
                 href="#"

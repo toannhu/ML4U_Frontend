@@ -1,9 +1,6 @@
 import React from "react";
-
 import styled from "styled-components";
-
-import Arrow from "./Icons/Arrow";
-import bgImg from "../assets/img/bg-home.jpg";
+import bgImg from "../assets/img/bg.jpg";
 
 const Section = styled.section`
   position: relative;
@@ -101,15 +98,6 @@ const SubTitle = styled.h5`
   }
 `;
 
-const Box = styled.div`
-  width: 105px;
-  height: 105px;
-  border: 15px solid #fb434b;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-`;
-
 const Home = () => {
   return (
     <Section id="home">
@@ -127,13 +115,6 @@ const Home = () => {
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.
         </SubTitle>
-        {/* <Box data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">
-          <Arrow
-            data-aos="fade-up"
-            data-aos-easing="ease"
-            data-aos-delay="1200"
-          />
-        </Box> */}
       </div>
     </Section>
   );

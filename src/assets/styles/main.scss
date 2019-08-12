@@ -5,18 +5,21 @@
 @import "pages/header";
 
 section {
-  +section {
-    +section {
-      background-color: #fff;
-      height: 100vh;
-      color: $color-red;
-      background-color: $color-red;
-      color: #fff;
-      text-align: center;
-      color: #ffffff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  + section {
+    + section {
+      padding-bottom: 10vh;
+      background-color: none;
+      + section {
+        padding-bottom: 10vh;
+        background-color: none;
+        + section {
+          padding-top: 5vh;
+          padding-bottom: 5vh;
+          background-color: #cdcdcd;
+          text-align: center;
+          color: white;
+        }
+      }
     }
   }
 }

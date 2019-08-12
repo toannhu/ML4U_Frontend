@@ -1,4 +1,4 @@
-# React Landing Page
+# React ML4U
 
 ## Installing
 
