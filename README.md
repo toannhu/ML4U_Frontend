@@ -5,7 +5,7 @@
 - Clone this repository:
 
 ```
-git clone https://github.com/emrullahayin/react-landing-page.git
+git clone https://github.com/toannhu/ML4U_Frontend/
 ```
 
 - How to run locally?
