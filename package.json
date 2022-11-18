@@ -17,7 +17,7 @@
     "react-dom": "^16.8.6",
     "react-facebook": "^8.0.4",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.0",
+    "react-scripts": "5.0.1",
     "react-scroll": "^1.7.11",
     "scrollmagic": "^2.0.6",
     "semantic-ui-css": "^2.4.1",
